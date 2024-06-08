@@ -2,7 +2,7 @@ class UserC {
   name: string;
   age: number;
 
-  //* сигнатура перезагрузки
+  //* сигнатура перегрузки
   constructor();
   constructor(name: string);
   constructor(age: number);
